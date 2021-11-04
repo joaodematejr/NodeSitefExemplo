@@ -1,0 +1,1 @@
+cmd_Release/obj.target/node-sitef.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=node-sitef.node -o Release/obj.target/node-sitef.node -Wl,--start-group Release/obj.target/node-sitef/lib/nodesitef.o -Wl,--end-group 
